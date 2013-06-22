@@ -1,2 +1,2 @@
-scotthaleen.github.com
+scotthaleen.github.io
 ======================
