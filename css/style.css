@@ -1,0 +1,71 @@
+
+
+
+body { 
+    /*background-color: #614051;*/
+    background-color: #000033;
+    color: #eee;
+}
+
+/** nav */
+
+nav.top-bar {
+    background-color: transparent;
+    color: #222;
+}
+
+nav.top-bar .name h1 a {
+    color: #222;
+}
+
+
+/** panel */
+.panel { 
+    border-width: 0; 
+    vertical-align: middle;
+}
+
+.light-text h5, .light-text p, .light-text i {
+    color: #fff;
+}
+
+.panel {
+    min-height: 150px;
+}
+
+.bk-img-1 {
+    background-image: url(http://placekitten.com/600/600);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.bk-img {
+    background-image: url(http://placekitten.com/300/300);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.color-green {
+    background-color: #060;
+}
+
+.color-red {
+    background-color: #900;
+}
+
+.color-orange {
+    background-color: #c70;
+}
+
+.color-purple {
+    background-color: #906;
+}
+
+.color-blue {
+    background-color: #60f;
+}
+
+.color-dark-blue {
+    background-color: #008;
+}

@@ -1,33 +1,171 @@
 <!DOCTYPE html>
+
+
 <html>
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>scotthaleen.github.io by scotthaleen</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>scotthaleen.github.io</title>
+    <link rel="stylesheet" href="lib/css/foundation.css" />
+    <link rel="stylesheet"
+    href="icons/foundation_icons/social/stylesheets/social_foundicons.css"
+n    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
+
   <body>
-    <div id="container">
-      <div class="inner">
 
-        <header>
-          <h1>scotthaleen.github.io</h1>
-        </header>
+    <!-- Header and Nav -->
+    <nav style="height: 25px;"></nav>
+    <!--<nav class="top-bar">
+      <ul class="title-area">
+        <li class="name">
+          <h1>
+            <a href="http://github.com/scotthaleen" style="padding-top: 5px;">
+              <i class="foundicon-github" style="font-size: 30px;"></i>
+            </a>
+          </h1>
+        </li>
+        <li class="toggle-topbar menu-icon">
+          <a href="#"><span>Menu</span></a></li>
+      </ul>
+      <section class="top-bar-section">
+        <ul class="left">
+        </ul>
+        <ul class="right">
+        </ul>
+      </section>
+    </nav>-->
+    <!-- End Header and Nav -->
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/scotthaleen" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-        <hr>
-        <section id="main_content">
-        </section>
+    <!-- Main Grid Section -->
+
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="panel light-text" style="min-height: 0; background-color: transparent" >
+          <a href="http://github.com/scotthaleen"><h5>scotthaleen.github.io</h5></a>
+          <hr />
+        </div>
       </div>
     </div>
+    
+
+
+    <div class="row">
+
+      <div class="large-6 columns">
+        <div class="panel color-green light-text">
+          <h5>Panel Title</h5>
+          <div style="float: left;padding: 0 10px 0 0;">
+            <img src="http://placekitten.com/50/50" />
+          </div>
+          <p class="light-text">This is a six columns grid panel with an arbitrary height.
+            Bacon ipsum dolor sit amet salami ham hock biltong ball tip
+            drumstick sirloin pancetta meatball short loin.</p>
+        </div>
+      </div>
+      <div class="large-2 columns">
+        <div class="panel color-blue light-text">
+
+          <i class="foundicon-twitter" style="font-size:
+          75px;line-height: 80px;"></i>
+          <h5>twitter</h5>
+        </div>
+      </div>
+      <div class="large-4 columns">
+        <div class="panel color-red light-text">
+          <h5>Panel Title</h5>        
+          <p>This is a four columns grid panel with an arbitrary height.
+            Bacon ipsum dolor sit amet salami.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="large-3 columns">
+        <div class="panel color-dark-blue light-text">
+          <h5> title </h5>
+          <p>This is a four columns grid panel with an arbitrary height.</p>
+        </div>
+      </div>
+      <div class="large-4 columns">
+        <div class="panel color-orange light-text">
+          <h5> title </h5>
+          <p>This is a four columns grid panel with an arbitrary height.
+            some text
+          </p>
+        </div>
+      </div>
+      <div class="large-5 columns">
+        <div class="panel color-purple light-text">
+          <h5> title </h5>
+          <p>This is a four columns grid panel with an arbitrary height.
+            some text
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="row">
+
+      <div class="large-3 columns">
+        <div class="panel color-purple light-text">
+          <p>This is a four columns grid panel with an arbitrary height.
+            some text
+          </p>
+        </div>
+      </div>
+      <div class="large-2 columns">
+        <div class="panel color-blue">
+          <p>
+            <img src="http://placehold.it/400x300" />
+          </p>
+        </div>
+      </div>
+      <div class="large-4 columns">
+        <div class="panel color-green">
+          <p>
+            <img src="http://placekitten.com/300/125" />
+          </p>
+        </div>
+      </div>
+      <div class="large-3 columns">
+        <div class="panel color-dark-blue light-text">
+          <p>
+            <img src="http://placekitten.com/400/200" />
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- End Grid Section -->
+
+
+    <!-- Footer -->
+
+    <footer class="row">
+      <div class="large-12 columns">
+        <div class="row">
+          <div class="large-6 columns">
+            <p>&copy; scotthaleen.github.io</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- javascript goes at the bottom!  -->
+    <script type="application/javascript" src="lib/js/vendor/custom.modernizr.js"></script>
+    <script type="application/javascript" src="lib/js/vendor/zepto.js"></script>    
+    <script type="application/javascript" src="lib/js/foundation.min.js"></script>  
+    <script>
+      $(document).foundation();
+    </script>
   </body>
 </html>
