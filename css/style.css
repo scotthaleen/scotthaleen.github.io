@@ -3,8 +3,22 @@
 
 body { 
     /*background-color: #614051;*/
-    background-color: #000033;
+    background-color: #222;
     color: #eee;
+    font-weight: normal;
+}
+
+.title-link {
+    font-family: Consolas, 'Liberation Mono', Courier, monospace;
+    font-size: 24px;
+    letter-spacing: 6px;
+    font-weight: normal;
+    color: #eee;
+    text-shadow: 0 0 0.4em #eee;
+}
+
+.title-link:hover {
+   color: #57bfea;
 }
 
 /** nav */
@@ -47,7 +61,23 @@ nav.top-bar .name h1 a {
 }
 
 .color-green {
-    background-color: #060;
+    background-color: #98ca46;
+}
+
+.color-blue {
+    background-color: #57bfea;
+}
+
+.color-none {
+    background-color: transparent;
+}
+
+.color-light-gray, .color-light-grey {
+    background-color: #c1c1c1;
+}
+
+.color-gray, .color-grey {
+    background-color: #4c4c4c;
 }
 
 .color-red {
@@ -60,10 +90,6 @@ nav.top-bar .name h1 a {
 
 .color-purple {
     background-color: #906;
-}
-
-.color-blue {
-    background-color: #60f;
 }
 
 .color-dark-blue {
