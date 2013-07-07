@@ -1,10 +1,10 @@
 requirejs.config({
- baseUrl : '../js'
+ baseUrl : '../js',
  paths : {
-   "zepto" : "../js/zepto.min",
-   "bootstrap" : "../js/bootstrap.min"
-   "knockout" : "../js/knockout-2.2.1",
-   "underscore" : "../js/underscore"
+   "zepto" : "zepto.min",
+   "bootstrap" : "bootstrap.min",
+   "knockout" : "knockout-2.2.1",
+   "underscore" : "underscore-min"
    /* hasher, crossroads, signals */
  },
  shim: {
@@ -24,7 +24,7 @@ requirejs.config({
 });
 
 
-require([underscore, zepto], 
+require(["underscore", "zepto"], 
         function(_, $){
 
 });
