@@ -1,5 +1,5 @@
 requirejs.config({
- baseUrl : '../js',
+ baseUrl : '/js',
  paths : {
    "zepto" : "zepto.min",
    "bootstrap" : "bootstrap.min",
