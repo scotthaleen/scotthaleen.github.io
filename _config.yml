@@ -1,0 +1,4 @@
+name: Site
+markdown: rdiscount
+pygments: true
+safe: true
