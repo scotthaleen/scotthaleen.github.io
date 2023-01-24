@@ -1,0 +1,27 @@
+* {
+    color: #fff;
+    background-color: #111;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    text-transform: lowercase;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 210px;
+}
+
+.typewriter {
+    width: fit-content;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(16, end);
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100px; }
+}
